@@ -21,8 +21,9 @@ else if(isNaN(a)){
 
 let age = prompt("Ваш возраст")
 let experience = prompt("Ваш стаж работы")
+let lang = prompt("На каком языке программируете?")
 
-if (age >= 30 && experience >= 3){
+if (age >= 30 && experience >= 3 && lang == "js"){
     alert ("Вы подходите на должность") 
 }
 else{
