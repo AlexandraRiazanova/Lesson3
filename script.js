@@ -11,7 +11,7 @@ else if (year - a < 18  && year - a >= 12){
     alert ("Доступ к сервису закрыт")
 }
 else if (year - a <= 12){
-    alert ("Другой сервис")
+    alert ("Советуем другой сервис")
 }
 else if(isNaN(a)){
     alert ("Вы ввели не число") 
@@ -20,7 +20,7 @@ else if(isNaN(a)){
 //Опросник для поступления на работу
 
 let age = prompt("Ваш возраст")
-let experience = prompt("Ваш опыт работы")
+let experience = prompt("Ваш стаж работы")
 
 if (age >= 30 && experience >= 3){
     alert ("Вы подходите на должность") 
